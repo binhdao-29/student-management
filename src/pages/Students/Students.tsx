@@ -3,6 +3,13 @@ import { Link } from 'react-router-dom'
 export default function Students() {
   return (
     <div>
+      <button
+        type='button'
+        className='me-2 mb-2 rounded-lg bg-gray-800 px-5 py-2.5 text-sm font-medium text-white hover:bg-gray-900'
+      >
+        Add student
+      </button>
+
       <h1 className='text-lg'>Students</h1>
       {/* <div role='status' className='mt-6 animate-pulse'>
         <div className='mb-4 h-4  rounded bg-gray-200 dark:bg-gray-700' />
